@@ -1,0 +1,100 @@
+.github-section {
+  background-color: #ffffff;
+  color: #1f2235;
+  padding: 60px 0;
+}
+.repo-count-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.repo-count {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2235;
+  background-color: #f1f1f1;
+  padding: 10px 24px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  border: 2px solid #1f2235;
+}
+
+
+.github-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.repo-item {
+  background-color: #ffffff;
+  color: #1f2235;
+  border: 4px solid #1f2235;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1 1 300px;
+  max-width: 320px;
+  min-width: 280px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.repo-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.repo-item h5 a {
+  color: #1f2235;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.repo-item p {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #1f2235;
+}
+
+.repo-item span {
+  font-size: 12px;
+  margin-top: 10px;
+  display: inline-block;
+  color: #ff5823;
+}
+
+.github-toggle {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.github-toggle button {
+  background-color: #ff5823;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.github-toggle button:hover {
+  background-color: #e04e1d;
+}
+
+@media (max-width: 768px) {
+  .repo-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

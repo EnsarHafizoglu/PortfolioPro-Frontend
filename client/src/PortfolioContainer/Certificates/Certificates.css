@@ -24,7 +24,7 @@
   background: white;
   padding: 20px;
   border-radius: 12px;
-  border: 2px solid #001f3f; /* Lacivert çerçeve */
+  border: 4px solid #001f3f; /* Lacivert çerçeve */
   box-shadow: 0 0px 20px -2px rgba(31, 34, 53, 0.3);
   text-align: center;
   transition: transform 0.3s ease-in-out;

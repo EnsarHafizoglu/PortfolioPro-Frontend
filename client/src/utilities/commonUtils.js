@@ -5,7 +5,7 @@ import Resume from '../PortfolioContainer/Resume/Resume';
 import Testimonial from '../PortfolioContainer/Testimonial/Testimonial';
 import ContactMe from "../PortfolioContainer/ContactMe/ContactMe";
 import Certificates from '../PortfolioContainer/Certificates/Certificates';
-
+import GithubRepos from '../PortfolioContainer/GithubRepos/GithubRepos';
 
 
 export const TOTAL_SCREENS = [
@@ -25,6 +25,10 @@ export const TOTAL_SCREENS = [
 {
   screen_name:"Certificates",
   component: Certificates,
+},
+{
+  screen_name:"GithubRepos",
+  component: GithubRepos,
 },
 
 {
