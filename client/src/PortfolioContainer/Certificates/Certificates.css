@@ -1,0 +1,132 @@
+.certificates-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 40px 15px;
+  box-sizing: border-box;
+}
+
+.slick-slider {
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .slick-slider {
+    width: 90%;
+  }
+}
+
+/* Sertifika kartı */
+.certificate-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #001f3f; /* Lacivert çerçeve */
+  box-shadow: 0 0px 20px -2px rgba(31, 34, 53, 0.3);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.certificate-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Kazanım listesi */
+.certificate-gains {
+  margin-top: 1rem;
+}
+
+.certificate-gains h2.title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.certificate-gains ul {
+  list-style: none;
+  padding: 0;
+  color: #141313;
+}
+
+.certificate-gains ul li {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Ok butonları (şık, lacivert, svg ile) */
+.custom-arrow {
+  background-color: white;
+  color: #001f3f;
+  border: 2px solid #001f3f;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-arrow svg {
+  width: 20px;
+  height: 20px;
+}
+
+.custom-arrow:hover {
+  background-color: #001f3f;
+  color: white;
+  transform: translateY(-50%) scale(1.05);
+}
+
+.prev-arrow {
+  left: -70px;
+}
+
+.next-arrow {
+  right: -70px;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-arrow {
+    padding: 6px;
+  }
+
+  .custom-arrow svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .prev-arrow {
+    left: -40px;
+  }
+
+  .next-arrow {
+    right: -40px;
+  }
+
+  .certificate-gains h2.title {
+    font-size: 1.2rem;
+  }
+
+  .certificate-gains ul li {
+    font-size: 0.95rem;
+  }
+
+  .certificate-image {
+    height: 160px;
+  }
+}

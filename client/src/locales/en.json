@@ -1,0 +1,17 @@
+{
+    "about_me": "About Me",
+    "why_choose_me": "Why Choose Me?",
+    "description": "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+    "highlights_heading": "Here are a Few Highlights:",
+    "highlights": [
+      "Full Stack web and mobile development",
+      "Interactive Front End as per the design",
+      "React and React Native",
+      "Redux for State Management",
+      "Building REST API",
+      "Managing database"
+    ],
+    "hire_me": "Hire Me",
+    "get_resume": "Get Resume"
+  }
+  

@@ -1,0 +1,18 @@
+{
+  "about_me": "Hakkımda",
+  "why_choose_me": "Neden Beni Seçmelisiniz?",
+  "description": "MERN stack ve redux konusunda bilgi sahibi, tam kapsamlı web ve mobil geliştirici. Uygulamaları en yüksek verimlilikle geliştirme yeteneğine sahip. BSC derecesine sahip, bir organizasyon için değerli bir varlık olmaya istekli.",
+  "highlights_heading": "İşte Birkaç Öne Çıkan Özellik:",
+  "highlights": [
+    "Full Stack web ve mobil geliştirme",
+    "Tasarımına uygun etkileşimli ön yüz",
+    "React ve React Native",
+    "Durum Yönetimi için Redux",
+    "REST API oluşturma",
+    "Veritabanı yönetimi"
+  ],
+  "hire_me": "Beni İşe Al",
+  "get_resume": "CV'yi İndir",
+  "welcome": "Hoşgeldiniz",
+  "about": "Hakkımda"
+}

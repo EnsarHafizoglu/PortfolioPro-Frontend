@@ -1,0 +1,42 @@
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.testi-item {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 4px solid #001f3f; /* Lacivert çerçeve */
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.testi-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+.client-info img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+}
+
+.client-info h5 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.client-info p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
