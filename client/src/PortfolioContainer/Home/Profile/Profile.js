@@ -43,7 +43,9 @@ export default function Profile() {
               </h1>
             </span>
             <span className="profile-role-tagline">
-            Web geliştirme alanında kendimi geliştiren biri olarak, kullanıcı dostu ve verimli web çözümleri oluşturmayı hedefliyorum. Öğrenmeye açık bir yaklaşımla, modern teknolojileri keşfedip projelerime uygulamaya çalışıyorum.
+            Web geliştirme alanında kendimi geliştiren biri olarak,
+             kullanıcı dostu ve verimli web çözümleri oluşturmayı hedefliyorum.
+             Öğrenmeye açık bir yaklaşımla, modern teknolojileri keşfedip projelerime uygulamaya çalışıyorum.
             </span>
           </div>
 

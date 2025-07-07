@@ -5,7 +5,7 @@ import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
 import lady from "../../../src/img/Testimonial/lady.png";
 import mike from "../../../src/img/Testimonial/mike.png";
-import man from "../../../src/img/Testimonial/man.png";
+import YaşarUğur from "../../../src/img/Testimonial/YasarUgur.jpg";
 
 export default function Testimonial(props) {
   let fadeInScreenHandler = (screen) => {
@@ -20,8 +20,8 @@ export default function Testimonial(props) {
     {
       name: "Yaşar Uğur PABUCCU",
       role: "Product Owner",
-      company: "Architecht Bilişim Sistemleri",
-      image: man,
+      company: "Architecht",
+      image: YaşarUğur,
     },
     {
       name: "Ali Tunç",
