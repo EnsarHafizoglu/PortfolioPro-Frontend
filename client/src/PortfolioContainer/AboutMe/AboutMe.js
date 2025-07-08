@@ -14,23 +14,22 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Web geliştirme alanında kendimi geliştiren bir öğrenci olarak, modern teknolojilerle kullanıcı dostu ve verimli web uygulamaları oluşturmayı hedefliyorum. Full-stack web geliştirme konusunda bilgi sahibiyim ve öğrendiklerimi projelerime uygulayarak pratik yapıyorum.",
+      "Frontend, backend ve veritabanı alanlarında edindiğim bilgi ve deneyimlerle projelerde uçtan uca çözümler geliştirmeye odaklanıyorum. Kod kalitesi, performans ve sürdürülebilirlik konularında titizlikle çalışıyor; takım içi iş birliği ve sürekli öğrenme yaklaşımıyla teknik yetkinliğimi her geçen gün ileriye taşıyorum. Gerçek projelerde aktif rol alarak teorik bilgilerimi pratiğe dönüştürme fırsatı buluyorum.",
     highlights: {
-      bullets: [
-        "Full Stack Web Geliştirme",
-      "Duyarlı ve Etkileşimli Ön Yüz Tasarımı",
-      "HTML, CSS, JavaScript ve Bootstrap Kullanımı",
-      "React ile Modern Web Uygulamaları Geliştirme",
-      "React Hooks ve Component Tabanlı Mimari",   
-      "ASP.NET Core ve MVC Framework ile Backend Geliştirme",
-      "Microsoft SQL Server ile Veritabanı Yönetimi",
-      "API Geliştirme ve Veri Yönetimi",
-      "Yazılım Geliştirme Yaşam Döngüsü (SDLC) Konusunda Bilgi",
-      "Agile ve Scrum Metodolojileri ile Çalışma",
-      "Versiyon Kontrol Sistemleri (Git, GitHub) Kullanımı",
-      "Problem Çözme ve Algoritma Geliştirme Yetkinliği"
-      ],
-      heading: "İşte Öne Çıkan Bazı Yeteneklerim:",
+     bullets: [
+  "Full Stack Web Geliştirme",
+  "Duyarlı (Responsive) ve Etkileşimli Ön Yüz Tasarımı",
+  "HTML, CSS, JavaScript ve Bootstrap Kullanımı",
+  "React ile Modern Web Uygulamaları Geliştirme",
+  "React Hooks ve Bileşen (Component) Tabanlı Mimari",
+  "ASP.NET Core ve MVC Framework ile Backend Geliştirme",
+  "Microsoft SQL Server ile Veritabanı Yönetimi",
+  "Yazılım Geliştirme Yaşam Döngüsü (SDLC) Konusunda Bilgi",
+  "Agile ve Scrum Metodolojileri ile Çalışma Deneyimi",
+  "Versiyon Kontrol Sistemleri (Git, GitHub) Kullanımı",
+  "Problem Çözme ve Algoritma Geliştirme Yetkinliği"
+],
+heading: "İşte Öne Çıkan Bazı Yeteneklerim:"
     },
   };
   const renderHighlight = () => {

@@ -92,9 +92,10 @@ export default function ContactMe(props) {
            delaySpeed={1000} />
           </h2>{" "}
          
-          <a href="#">
+          <a href="mailto:ensarportfoliopro@gmail.com">
             <i className="fa fa-google-plus-square" />
           </a>
+
           <a href="https://www.instagram.com/ensar_hfzoglu/">
             <i className="fa fa-instagram" />
           </a>
@@ -121,7 +122,7 @@ export default function ContactMe(props) {
 
             <div className="send-btn">
               <button type="submit">
-                send
+                Send
                 <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">

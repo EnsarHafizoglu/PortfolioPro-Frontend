@@ -10,8 +10,8 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="#">
-                <i className="fa fa-google-plus-square" />
+              <a href="mailto:ensarportfoliopro@gmail.com">
+              <i className="fa fa-google-plus-square" />
               </a>
               <a href="https://www.instagram.com/ensar_hfzoglu/">
                 <i className="fa fa-instagram" />
@@ -32,7 +32,7 @@ export default function Profile() {
               {" "}
               <h1>
               <Typewriter
-                  words={[ 'Full Stack Developer 💻 ', 'Junior Developer 🎇']}
+                  words={[ 'Full Stack Developer', 'Junior Developer 💻']}
                   loop={Infinity}
                   cursor
                   cursorStyle='|'
@@ -43,9 +43,13 @@ export default function Profile() {
               </h1>
             </span>
             <span className="profile-role-tagline">
-            Web geliştirme alanında kendimi geliştiren biri olarak,
-             kullanıcı dostu ve verimli web çözümleri oluşturmayı hedefliyorum.
-             Öğrenmeye açık bir yaklaşımla, modern teknolojileri keşfedip projelerime uygulamaya çalışıyorum.
+           Merhaba! Ben Konya Teknik Üniversitesi'nde Yazılım Mühendisliği öğrencisiyim. 
+           Aynı zamanda Architecht'te yarı zamanlı full stack geliştirici olarak çalışıyor,
+            teorik bilgimi gerçek dünya projeleriyle pekiştiriyorum.
+             Web geliştirme alanında kendimi sürekli geliştiriyor; 
+             kullanıcı odaklı, hızlı ve ölçeklenebilir çözümler üretmeye odaklanıyorum.
+              Modern teknolojilere ilgiyle yaklaşıyor,
+               edindiğim bilgi ve becerileri projelerimde etkin bir şekilde kullanmaya özen gösteriyorum.
             </span>
           </div>
 

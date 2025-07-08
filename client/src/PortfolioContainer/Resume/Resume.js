@@ -72,21 +72,31 @@ const Resume = (props) => {
   ];
 
   const projectsDetails = [
-    {
-      title: "Öğrenci Takip Sistemi",
-      duration: { fromDate: "2024", toDate: "2024" },
-      description:
-        "Öğrencilerin bilgilerini, devamsızlık durumlarını ve akademik performanslarını takip etmek için geliştirilmiş bir sistem..",
-      subHeading: "Kullanılan Teknolojiler: ASP.NET Core, MVC Framework, Microsoft SQL Server, HTML, CSS, JavaScript, Bootstrap",
-    },
-    {
-      title: "Kişisel Portföy Web Sitesi ",
-      duration: { fromDate: "2020", toDate: "2021" },
-      description:
-        "Tüm kişisel bilgilerimi ve projelerimi tek bir yerde sergilemek için oluşturulmuş bir kişisel portföy web sitesi.",
-      subHeading:
-        "Kullanılan Teknolojiler: React JS, Bootstrap",
-    }  
+  {
+    title: "Öğrenci Takip Sistemi",
+    duration: { fromDate: "2024", toDate: "2024" },
+    description:
+      "Öğrencilerin bilgilerini, devamsızlık durumlarını ve akademik performanslarını takip etmek için geliştirilmiş bir sistem.",
+    subHeading:
+      "Kullanılan Teknolojiler: ASP.NET Core, MVC Framework, Microsoft SQL Server, HTML, CSS, JavaScript, Bootstrap",
+  },
+ 
+  {
+    title: "ROS ile Robotik Uygulama Geliştirme",
+    duration: { fromDate: "2024", toDate: "2024" },
+    description:
+      "ROS (Robot Operating System) altyapısını kullanarak temel hareket komutları, sensör verisi işleme ve otonom görevler üzerinde çalışan bir robotik sistem geliştirildi. Simülasyon ortamında testler yapıldı.",
+    subHeading:
+      "Kullanılan Teknolojiler: ROS (Noetic), Python, Gazebo, RViz",
+  },
+   {
+    title: "Müşteri Segmentasyonu ile Model Eğitimi",
+    duration: { fromDate: "2025", toDate: "2025" },
+    description:
+      "Müşteri verilerini analiz ederek farklı müşteri gruplarını belirlemek amacıyla segmentasyon modeli eğitildi. K-means algoritması ile segmentler oluşturulup, görselleştirme ve yorumlama adımları gerçekleştirildi.",
+    subHeading:
+      "Kullanılan Teknolojiler: Python, Pandas, Scikit-learn, Matplotlib, Seaborn",
+  },
   ];
 
   const resumeDetails = [
@@ -117,13 +127,13 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-          Kuveyt Türk'ün %100 iştiraki olan Architecht Bilişim Sistemleri'nde Tekno Kampüs programı kapsamında Part-Time Full Stack Developer olarak çalışıyorum. Backend ve frontend geliştirme süreçlerinde aktif rol alarak kurumsal projelerin hayata geçirilmesine katkı sağlıyorum.
-          </span>
+Kuveyt Türk’ün %100 iştiraki olan Architecht Bilişim Sistemleri’nde, Tekno Kampüs programı kapsamında Part-Time Full Stack Developer olarak çalışıyorum. Kurumsal projelerde frontend (React) ve backend (C#, ASP.NET Core) geliştirme süreçlerinde aktif olarak yer alıyor, uygulamaların hem arayüz hem de iş mantığı katmanlarına katkı sağlıyorum.
+
+         </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-          Bu süreçte C#, React, JavaScript, SQL Server gibi teknolojilerde kendimi geliştirirken, Agile metodolojileri, Yazılım Geliştirme Yaşam Döngüsü (SDLC) ve proje yönetimi konularında da deneyim kazandım.
-          </span>
+Güncel olarak C#, React, JavaScript ve SQL Server gibi teknolojilerle çalışıyor; gerçek projeler üzerinde deneyim kazanarak teknik becerilerimi geliştirmeye devam ediyorum. Agile metodolojisiyle yürütülen sprint süreçlerinde takım içinde aktif rol alıyorum.</span>
           <br />
           <span className="resume-description-text">
             - Kullanılan Teknolojiler: C#, React, JavaScript, SQL Server, Agile, SDLC, Proje Yönetimi
@@ -154,18 +164,22 @@ const Resume = (props) => {
     </div>,
 
     /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
-      {projectsDetails.map((projectsDetails, index) => (
-        <ResumeHeading
-          key={index}
-          heading={projectsDetails.title}
-          subHeading={projectsDetails.subHeading}
-          description={projectsDetails.description}
-          fromDate={projectsDetails.duration.fromDate}
-          toDate={projectsDetails.duration.toDate}
-        />
-      ))}
-    </div>,
+  /* PROJECTS */
+<div className="resume-screen-container" key="projects">
+  <div className="project-scroll-area">
+    {projectsDetails.map((project, index) => (
+      <ResumeHeading
+        key={index}
+        heading={project.title}
+        subHeading={project.subHeading}
+        description={project.description}
+        fromDate={project.duration.fromDate}
+        toDate={project.duration.toDate}
+      />
+    ))}
+  </div>
+</div>,
+
 
     /* Interests */
     <div className="resume-screen-container" key="interests">

@@ -231,5 +231,23 @@
     .selected-bullet {
       width: 100%;
     }
+    /* Scrollable Projects Area */
+.project-scroll-area {
+  max-height: 280px; /* İçerik yüksekliği (isteğe göre değiştirilebilir) */
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Scrollbar stilini özelleştirme - opsiyonel */
+.project-scroll-area::-webkit-scrollbar {
+  width: 6px;
+}
+
+.project-scroll-area::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+
   }
   

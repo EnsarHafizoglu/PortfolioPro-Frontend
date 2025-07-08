@@ -3,8 +3,8 @@ import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Testimonial.css";
-import lady from "../../../src/img/Testimonial/lady.png";
-import mike from "../../../src/img/Testimonial/mike.png";
+import DefaultProfilePhoto from "../../../src/img/Testimonial/DefaultProfilePhoto.png";
+import AliTunc from "../../../src/img/Testimonial/AliTunc.jpg";
 import YaşarUğur from "../../../src/img/Testimonial/YasarUgur.jpg";
 
 export default function Testimonial(props) {
@@ -18,22 +18,24 @@ export default function Testimonial(props) {
 
   const testimonials = [
     {
+      name: "Ali TUNÇ",
+      role: "Tribe Lead",
+      company: "Architecht",
+      image: AliTunc,
+    },
+
+    {
       name: "Yaşar Uğur PABUCCU",
       role: "Product Owner",
       company: "Architecht",
       image: YaşarUğur,
     },
+
     {
-      name: "Ali Tunç",
-      role: "Tribe Lead",
-      company: "Architecht Bilişim Sistemleri",
-      image: mike,
-    },
-    {
-      name: "Özgür Öksüz",
-      role: "Dr.Öğretim Üyesi",
-      company: "Konya Teknik Üniversitesi",
-      image: lady,
+      name: "Mustafa CAN",
+      role: "SOftware Engineer",
+      company: "Architecht",
+      image: DefaultProfilePhoto,
     },
   ];
 
