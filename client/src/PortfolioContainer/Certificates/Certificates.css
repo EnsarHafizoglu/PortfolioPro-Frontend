@@ -6,6 +6,7 @@
   width: 100%;
   padding: 40px 15px;
   box-sizing: border-box;
+  background-color: #ffffff; /* Beyaz arka plan */
 }
 
 .slick-slider {
@@ -19,13 +20,22 @@
   }
 }
 
+/* Sertifika sayısı */
+.certificates-count {
+  text-align: center;
+  font-size: 18px;
+  color: #1f2235;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
 /* Sertifika kartı */
 .certificate-card {
-  background: white;
+  background: #ffffff;
   padding: 20px;
   border-radius: 12px;
-  border: 4px solid #001f3f; /* Lacivert çerçeve */
-  box-shadow: 0 0px 20px -2px rgba(31, 34, 53, 0.3);
+  border-left: 5px solid #ff5823; /* Turuncu kenarlık */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease-in-out;
   width: 100%;
@@ -33,6 +43,19 @@
   margin: auto;
 }
 
+.certificate-card h3 {
+  color: #ff5823;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.certificate-card p {
+  color: #1f2235;
+  font-size: 0.95rem;
+  margin: 4px 0;
+}
+
+/* Sertifika görseli */
 .certificate-image {
   width: 100%;
   height: 200px;
@@ -41,13 +64,14 @@
   margin-bottom: 10px;
 }
 
-/* Kazanım listesi */
+/* Kazanım bölümü */
 .certificate-gains {
   margin-top: 1rem;
 }
 
 .certificate-gains h2.title {
   font-size: 1.5rem;
+  color: #1f2235;
   margin-bottom: 0.5rem;
 }
 
@@ -62,11 +86,11 @@
   margin-bottom: 0.25rem;
 }
 
-/* Ok butonları (şık, lacivert, svg ile) */
+/* Ok butonları */
 .custom-arrow {
-  background-color: white;
-  color: #001f3f;
-  border: 2px solid #001f3f;
+  background-color: #ffffff;
+  color: #1f2235;
+  border: 2px solid #1f2235;
   border-radius: 10px;
   padding: 8px;
   cursor: pointer;
@@ -87,8 +111,9 @@
 }
 
 .custom-arrow:hover {
-  background-color: #001f3f;
-  color: white;
+  background-color: #ff5823;
+  border-color: #ff5823;
+  color: #ffffff;
   transform: translateY(-50%) scale(1.05);
 }
 
@@ -129,4 +154,21 @@
   .certificate-image {
     height: 160px;
   }
+
+  .certificates-count {
+    font-size: 16px;
+  font-weight: 600;
+  color: #1f2235;
+  background-color: #f1f1f1;
+  padding: 10px 24px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 2px solid #1f2235;
+  }
+  .repo-count-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
 }

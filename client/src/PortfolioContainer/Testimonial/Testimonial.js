@@ -37,6 +37,12 @@ export default function Testimonial(props) {
       company: "Architecht",
       image: DefaultProfilePhoto,
     },
+     {
+      name: "Enes Yıldız",
+      role: "SOftware Engineer",
+      company: "Architecht",
+      image: DefaultProfilePhoto,
+    },
   ];
 
   return (

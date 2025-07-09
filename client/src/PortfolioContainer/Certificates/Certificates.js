@@ -68,37 +68,46 @@ export default function Certificates(props) {
   };
 
   return (
-    <div className="certificates-container screen-container fade-in" id={props.id || ""}>
-      <ScreenHeading title={"Certificates"} subHeading={"Some Of My Certificates"} />
-      <Slider {...settings}>
-        {certificatesData.map((cert, index) => (
-          <div key={index} className="certificate-card">
-            <img src={cert.image} alt={cert.title} className="certificate-image" />
-            <h3>{cert.title}</h3>
-            <p><b>Issued by:</b> {cert.organization}</p>
-            <p><b>Date:</b> {cert.date}</p>
-            <p>{cert.description}</p>
-            <div className="certificate-gains">
-              <h2 className="title">
-                <Typewriter
-                  words={['Kazanımlarım 🧑‍💻']}
-                  loop={Infinity}
-                  cursor
-                  cursorStyle="|"
-                  typeSpeed={70}
-                  deleteSpeed={50}
-                  delaySpeed={1000}
-                />
-              </h2>
-              <ul>
-                {cert.gains.map((gain, i) => (
-                  <li key={i}>✅ {gain}</li>
-                ))}
-              </ul>
-            </div>
+  <div className="certificates-container screen-container fade-in" id={props.id || ""}>
+    <ScreenHeading title={"Certificates"} subHeading={"Some Of My Certificates"} />
+
+   <p className="repo-count-wrapper">
+  <span className="repo-count">
+    Toplam {certificatesData.length} adet sertifika bulunmaktadır.
+  </span>
+</p>
+
+
+    <Slider {...settings}>
+      {certificatesData.map((cert, index) => (
+        <div key={index} className="certificate-card">
+          <img src={cert.image} alt={cert.title} className="certificate-image" />
+          <h3>{cert.title}</h3>
+          <p><b>Issued by:</b> {cert.organization}</p>
+          <p><b>Date:</b> {cert.date}</p>
+          <p>{cert.description}</p>
+          <div className="certificate-gains">
+            <h2 className="title">
+              <Typewriter
+                words={['Kazanımlarım 🧑‍💻']}
+                loop={Infinity}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </h2>
+            <ul>
+              {cert.gains.map((gain, i) => (
+                <li key={i}>✅ {gain}</li>
+              ))}
+            </ul>
           </div>
-        ))}
-      </Slider>
-    </div>
-  );
+        </div>
+      ))}
+    </Slider>
+  </div>
+);
+
 }
